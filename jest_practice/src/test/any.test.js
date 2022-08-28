@@ -10,12 +10,3 @@ test("something error", () => {
     expect(t).toThrow(TypeError);
     expect(t).toThrow("UNKNOWN ERROR");
 });
-
-describe("Test Suite", () => {
-    test("Test Case", () => {
-        //Asseration
-    });
-    test("Test Case", () => {
-        //Asseration
-    });
-});

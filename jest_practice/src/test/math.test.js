@@ -1,5 +1,10 @@
-const sum = require("./sum");
-const reduce = require("./reduce");
+function sum(a, b) {
+    return a + b;
+}
+
+function reduce(a, b) {
+    return a - b;
+}
 
 describe("運算測試", () => {
     test("sum", () => {

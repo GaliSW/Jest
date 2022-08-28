@@ -23,7 +23,7 @@ describe("巢狀物件", () => {
         });
     });
 
-    test("toEqual(expecy.objectContaining()) contain all", () => {
+    test("toEqual(expect.objectContaining()) contain all", () => {
         expect(obj).toEqual(
             expect.objectContaining({
                 position: {
@@ -34,7 +34,7 @@ describe("巢狀物件", () => {
         );
     });
 
-    test("toEqual(expecy.objectContaining()) contain partially", () => {
+    test("toEqual(expect.objectContaining()) contain partially", () => {
         expect(obj).toEqual(
             expect.objectContaining({
                 position: {
@@ -44,7 +44,7 @@ describe("巢狀物件", () => {
         );
     });
 
-    test("toEqual(expecy.objectContaining()) 物件屬性內又定義 objectContaining", () => {
+    test("toEqual(expect.objectContaining()) 物件屬性內又定義 objectContaining", () => {
         expect(obj).toEqual(
             expect.objectContaining({
                 position: expect.objectContaining({
@@ -62,7 +62,7 @@ test("沒有Gary", () => {
 test("有Gary", () => {
     expect("My name is Gary").toMatch(/Gary/);
 });
-const mamber = ["Gary", "Nina", "Leo", "Andy", "Alex"];
+const member = ["Gary", "Nina", "Leo", "Andy", "Alex"];
 
 test("是否有Gary", () => {
     expect(member).toContain("Gary");
