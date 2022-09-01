@@ -1,0 +1,4 @@
+{"/Users/garyyang/Jest/component_test/babel.config.js": {"path":"/Users/garyyang/Jest/component_test/babel.config.js","statementMap":{"0":{"start":{"line":1,"column":0},"end":{"line":3,"column":2}}},"fnMap":{},"branchMap":{},"s":{"0":0},"f":{},"b":{},"hash":"741d960a379ef02d0b345ce232765215f4ee5bc5"}
+,"/Users/garyyang/Jest/component_test/jest.config.js": {"path":"/Users/garyyang/Jest/component_test/jest.config.js","statementMap":{"0":{"start":{"line":1,"column":15},"end":{"line":9,"column":1}},"1":{"start":{"line":11,"column":0},"end":{"line":11,"column":24}}},"fnMap":{},"branchMap":{},"s":{"0":0,"1":0},"f":{},"b":{},"hash":"899695463a5db4f653aef732ba0f0c6a4a106fd8"}
+,"/Users/garyyang/Jest/component_test/src/main.js": {"path":"/Users/garyyang/Jest/component_test/src/main.js","statementMap":{"0":{"start":{"line":4,"column":0},"end":{"line":4,"column":29}}},"fnMap":{},"branchMap":{},"s":{"0":0},"f":{},"b":{},"hash":"d19411cc10c32eee2a7b777e0f8925c4d80e94ba"}
+}
